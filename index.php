@@ -17,7 +17,7 @@ for($i = 0; $i < $rows; $i++){
     for($j = 0; $j < $cols; $j++){
         $sumRow = $sumRow + $a[$i][$j];
     }
-    print("Sum of " . ($i+1) ." row: " . $sumRow);
+    print("Tong cua hang:" . ($i+1)  ." la : ". $sumRow);
     print("<br>");
 }
 
@@ -26,7 +26,7 @@ for($i = 0; $i < $cols; $i++){
     for($j = 0; $j < $rows; $j++){
         $sumCol = $sumCol + $a[$j][$i];
     }
-    print("Sum of " . ($i+1) . " column: " . $sumCol);
+    print("Tong cua cot : " . ($i+1)  ." la ". $sumCol);
     print("<br>");
 }
 ?>
